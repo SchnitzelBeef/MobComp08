@@ -69,6 +69,8 @@ public class TitTatBlaster3000 extends JE802_11MacAlgorithm {
 		} else {
 			this.deffect(AIFSN_AC01, CWmin_AC01);
 		}
+		theBackoffEntityAC01.setDot11EDCAAIFSN(1);
+		theBackoffEntityAC01.setDot11EDCACWmin(1);
 	}
 	
 	@Override

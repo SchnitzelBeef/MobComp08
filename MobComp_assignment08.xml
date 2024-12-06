@@ -216,7 +216,7 @@
 			dot11MacHeaderDATA_byte="24" dot11MacHeaderRTS_byte="16"
 			dot11WepEncryption="false">
 
-		  <JE802Mlme NameOfAlgorithm="evil"
+		  <JE802Mlme NameOfAlgorithm="randomMOD"
 			     ComputingInterval_ms="100"
 				ShowPlot="false"/>
 				<!-- // MLME = MAC Layer Management Entity -->
@@ -275,7 +275,7 @@
 			dot11MacHeaderDATA_byte="24" dot11MacHeaderRTS_byte="16"
 			dot11WepEncryption="false">
 
-		  <JE802Mlme NameOfAlgorithm="evil"
+		  <JE802Mlme NameOfAlgorithm="randomMOD"
 			     ComputingInterval_ms="100"
 				ShowPlot="false"/>
 				<!-- // MLME = MAC Layer Management Entity -->
@@ -334,7 +334,7 @@
 			dot11MacHeaderDATA_byte="24" dot11MacHeaderRTS_byte="16"
 			dot11WepEncryption="false">
 
-		  <JE802Mlme NameOfAlgorithm="evil"
+		  <JE802Mlme NameOfAlgorithm="randomMOD"
 			     ComputingInterval_ms="100"
 				ShowPlot="false"/>
 				<!-- // MLME = MAC Layer Management Entity -->
