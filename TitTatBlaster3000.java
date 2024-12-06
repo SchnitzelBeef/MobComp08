@@ -121,10 +121,10 @@ public class TitTatBlaster3000 extends JE802_11MacAlgorithm {
 		int baseCWmin;
 		if (this.previous_opponent_mode == Mode.COOPERATE) {
 			this.throughput_setpoint = 5;
-			baseCWmin = 1; 
+			baseCWmin = 30; 
 		} else {
 			this.throughput_setpoint = 10;
-			baseCWmin = 30;
+			baseCWmin = 1;
 		}
 
 		this.previous_opponent_mode = this.current_opponent_mode;
