@@ -12,7 +12,7 @@ public final class PIDController {
 	private double Ki;
 	private double Kd;
 
-	private double state = 0;
+	protected double state = 0;
 
 	public PIDController(double bias, double Kp, double Ki, double Kd) {
 		this.bias = bias;

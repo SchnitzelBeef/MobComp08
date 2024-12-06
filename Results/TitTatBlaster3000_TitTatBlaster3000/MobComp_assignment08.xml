@@ -3,7 +3,7 @@
 	<JE802Control showGui="false" EmulationDuration_ms="60100">
 		<JE802StatEval seed="11" EvalThrpPerAC="false"
 			EvalDelayPerAC="false" EvalOfferPerAC="false" EvaluationStarttime_ms="2000"
-			EvaluationInterval_ms="1000" Path2Results="Results/TitTatBlaster3000_randomMOD/"
+			EvaluationInterval_ms="1000" Path2Results="Results/TitTatBlaster3000_TitTatBlaster3000/"
 			EvalTotalOffer="true" EvalTotalThrp="true" EvalTotalDelay="false"
 			HistogramMax_ms="1000" HistogramNumOfBins="200" />
 			<!--JE802StatEval defines the parameters needed for statistical analysis 
@@ -186,7 +186,7 @@
 			dot11MacHeaderDATA_byte="24" dot11MacHeaderRTS_byte="16"
 			dot11WepEncryption="false">
 
-		  <JE802Mlme NameOfAlgorithm="randomMOD"
+		  <JE802Mlme NameOfAlgorithm="TitTatBlaster3000"
 			     ComputingInterval_ms="100"
 				ShowPlot="true" />
 
@@ -234,7 +234,7 @@
 			dot11MacHeaderDATA_byte="24" dot11MacHeaderRTS_byte="16"
 			dot11WepEncryption="false">
 
-		  <JE802Mlme NameOfAlgorithm="randomMOD"
+		  <JE802Mlme NameOfAlgorithm="TitTatBlaster3000"
 			     ComputingInterval_ms="100"
 				ShowPlot="false" />
 
@@ -282,7 +282,7 @@
 			dot11MacHeaderDATA_byte="24" dot11MacHeaderRTS_byte="16"
 			dot11WepEncryption="false">
 
-		  <JE802Mlme NameOfAlgorithm="randomMOD"
+		  <JE802Mlme NameOfAlgorithm="TitTatBlaster3000"
 			     ComputingInterval_ms="100"
 				ShowPlot="false" />
 
