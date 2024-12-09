@@ -1,7 +1,7 @@
-// package layer2_802Algorithms;
+package layer2_802Algorithms;
 
 // **ADDED**
-public final class PIDController {
+public final class PIDController2 {
 
 	private double commulating_error = 0;
 	private double prev_error = 0; 
@@ -12,9 +12,10 @@ public final class PIDController {
 	private double Ki;
 	private double Kd;
 
+	private double pid_output = 0;
 	private double state = 0;
 
-	public PIDController(double bias, double Kp, double Ki, double Kd) {
+	public PIDController2(double bias, double Kp, double Ki, double Kd) {
 		this.bias = bias;
 		this.Kp = Kp;
 		this.Ki = Ki;
@@ -23,6 +24,10 @@ public final class PIDController {
 
 	protected double getLastResponse() {
 		return this.state;
+	}
+
+	protected double getLastPidOutput() {
+		return this.pid_output;
 	}
 
 	// Calculates PID value 
