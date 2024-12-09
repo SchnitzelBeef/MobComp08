@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE JE802 SYSTEM "../Jemula802XmlScenarioFileConstraints.dtd">
 <JE802>
-	<JE802Control showGui="false" EmulationDuration_ms="60100">
+	<JE802Control showGui="true" EmulationDuration_ms="60100">
 		<JE802StatEval seed="11" EvalThrpPerAC="false"
 			EvalDelayPerAC="false" EvalOfferPerAC="false" EvaluationStarttime_ms="2000"
 			EvaluationInterval_ms="1000" Path2Results="Results/random_TitTatBlaster3000/"
