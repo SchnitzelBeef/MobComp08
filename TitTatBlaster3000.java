@@ -52,7 +52,7 @@ public class TitTatBlaster3000 extends JE802_11MacAlgorithm {
 	}
 
 	// This is for you, Stefan
-	private final boolean TOURNAMENT_SETTING = false;
+	private final boolean TOURNAMENT_SETTING = true;
 
 	private JE802_11BackoffEntity theBackoffEntityAC01;
 	
